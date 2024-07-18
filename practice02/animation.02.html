@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animation nav li a{
+            color: black;
+            text-decoration: none;
+        }
+
+        ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 12px;
+            margin: 15px;
+            
+        }
+
+        li:hover{
+            border: 2px solid black;
+            height: 15px;
+            /* text-decoration: underline; */
+            background-color: blueviolet;
+            color: aqua;
+
+        }
+
+        .animation img{
+            position: relative;
+            left: 1200px;
+            animation: carani 20s  ease-in 1  ;
+            animation-direction:inherit;
+            animation-fill-mode: both;
+            
+        }
+        @keyframes carani{
+            from{
+                width: 120px;
+            }
+            to{
+                height: 100px;
+                transform:  translatex(-1500px);
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="animation">
+        <nav>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="con">Contact</a></li>
+            </ul>
+            <img src="car.jpg" height="90px">
+            <hr>
+        </nav>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    border: 2px solid red;
+    border-radius: 100px;
+    width: 220px;
+    background-color: aqua;
+}
+
+body{
+    background-color: rgb(60, 111, 60);
+}
+
+
+
+
+
+.border {
+    border: 2px solid black;
+    height: 800px;
+    width: 500px;
+    justify-content: center;
+    background-color: white;
+
+}
+.border,h2,p{
+    font-style: italic;
+}

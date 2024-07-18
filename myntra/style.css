@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 2px solid black;
+    height: 76px;
+    border-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+        linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+        linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+
+
+.container {
+    height: 61px;
+}
+
+.container .item_img {
+    height: 61px;
+    width: 68px;
+}
+
+.item_img img {
+    display: flex;
+    justify-content: center;
+    height: 51px;
+    padding: 5px;
+}
+
+.item_img img:hover {
+    cursor: grab;
+}
+
+.item_name {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.item_name h4 {
+    padding: 32px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.item,
+h4:hover {
+    /* border: 1px solid red; */
+    cursor: alias;
+}
+
+.search_bar {
+    height: 31px;
+}
+
+.search_bar input {
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar i,
+.fa-solid fa-magnifying-glass {
+    position: relative;
+    bottom: 25px;
+    padding: 4px;
+}
+
+.profile ,a {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.profile i {
+    display: flex;
+    justify-content: center;
+
+}
+
+.whislist i {
+    display: flex;
+    justify-content: center;
+}
+
+.bag i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* padding: 5px; */
+}
+
+.bag a{
+    position: relative;
+    left: 10px;
+    color: black;
+    text-decoration: none;
+}
+

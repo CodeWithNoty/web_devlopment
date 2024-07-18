@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 2px solid black;
+    height: 43px;
+    width: 100%;
+    background-color: rgb(19, 25, 33);
+
+}
+
+.photo {
+    width: 74px;
+    height: 34px;
+    padding: 9px;
+}
+
+.photo img {
+    /* background-color: black; */
+    height: 41px;
+    filter: brightness(0) invert(1);
+
+}
+
+.photo:hover {
+    border: 0.1px solid white;
+    width: 75px;
+    /* height: 32px; */
+}
+
+.location {
+    color: white;
+    height: 46px;
+    width: 175px;
+    position: relative;
+    left: 105px;
+    bottom: 50px;
+
+}
+
+.location i {
+    position: relative;
+    top: 15px;
+}
+
+.location .pin_code {
+    position: relative;
+    left: 18px;
+    bottom: 10px;
+    font-family: "Playwrite AU VIC", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 10px;
+}
+
+.location .update {
+    position: relative;
+    left: 18px;
+    bottom: 11px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 10px;
+
+}
+
+.location:hover {
+    border: 0.1px solid white;
+    /* width: 170px;
+    height: 100%; */
+}
+
+.search_bar {
+    display: inline;
+    position: relative;
+    left: 287px;
+    bottom: 90px;
+
+}
+
+.search_bar select {
+    width: 50px;
+    height: 25px;
+    background-color: rgb(230,230,230);
+    border-radius: 1px;
+    border: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.search_bar select option {
+    position: absolute;
+    height: 25px;
+    border: none;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.search_bar input {
+    width: 250px;
+    position: relative;
+    height: 25px;
+    border: 0.1px solid black;
+    border-radius: 3px;
+
+    
+}
+
+.search_bar .fa-image {
+    position: absolute;
+    left: 235px;
+    top: 2px;
+    cursor: grab;
+
+}
+
+.search_bar .fa-magnifying-glass {
+    position: relative;
+    right: 27px;
+    top: 2px;
+    border: 1px solid orange;
+    background: orange;
+    cursor: grab;
+}
+
+.flag{
+    height: 17px;
+    width: 53px;
+    position: relative;
+    left: 602px;
+    bottom: 112px;
+}
+
+.flag i{
+    color: white;
+}
+
+.flag 
+select ,option{
+    border: none;
+    height: 14px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.account{
+    height: 30px;
+    width: 109px;
+    position: relative;
+    text-align: center;
+    left:662px;
+    bottom:130px;
+    
+}
+
+.account P{
+    position: relative;
+    right: 20px;
+    font-size: 9px;
+    
+}
+
+.account H3{
+    font-size: 9px;
+    position: relative;
+    bottom: 18px;
+    left: -6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.account option{
+    color: white;
+}
+
+
+
+
+

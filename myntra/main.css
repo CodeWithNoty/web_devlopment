@@ -1,0 +1,101 @@
+.slace {
+    padding: 30px;
+    width: 310px;
+    display: flex;
+}
+
+
+.slace a {
+    display: flex;
+}
+
+.slace a ,p,h4{
+    padding: 10px;
+    /* font-weight: lighter; */
+}
+
+.number{
+    width: 183px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.number p{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.filter{
+    width: 68px;
+}
+
+.filter p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.detail{
+    height: 290px;
+    width: 250px;
+}
+.detail h5{
+    padding: 5px;
+    font-size: 13px;
+}
+.detail, input{
+    padding: 10PX;
+    font-size: 12px;
+
+    
+}
+
+.detail01{
+    height: 270px;
+    width: 250px;
+}
+.detail01 h5{
+    padding: 5px;
+    font-size: 13px;
+}
+.detail01, input{
+    font-size: 12px;
+    padding: 10PX;
+}
+.detail02{
+    height: 150px;
+    width: 250px;
+}
+
+.detail02 h5{
+    padding: 5px;
+    font-size: 13px;
+}
+.detail02, input{
+    font-size: 12px;
+    padding: 10PX;
+}
+
+.detail{
+    border: 1px solid wheat;
+}
+.detail01{
+    border: 1px solid wheat;
+}
+.detail02{
+    border: 1px solid wheat;
+}
+
+.select {
+    border: 1px solid black;
+    position: relative;
+    left: 260px;
+    top: 200;
+    width:1109px;
+    height: 10;
+
+
+}
+
+.select img {
+    height: 100px;
+}
